@@ -30,7 +30,7 @@ const httpLink = createHttpLink({
 
 const authLink = setContext(_ => {
   const token =
-    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYW5kaWRhdGVfbmFtZSI6InZhcm1hMDlocEBnbWFpbC5jb20iLCJpc19jYW5kaWRhdGUiOnRydWUsImlhdCI6MTY5MDk2MTAyOSwiZXhwIjoxNjkxNDc5NDI5fQ.pVKJLEqbwAVgAIW7jaz7A4pkZPvbTkEOvI6LNiiuseY';
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYW5kaWRhdGVfbmFtZSI6Imhhcmlwcml5YTAwN0BhaWRldGljLmluIiwiaXNfY2FuZGlkYXRlIjp0cnVlLCJpYXQiOjE2OTE0MDY3MzMsImV4cCI6MTY5MTkyNTEzM30.PgQ25oCM30aK9dbh25wOmKYCHORSPUlrYMbgu89PGy4';
 
   return {
     headers: {
